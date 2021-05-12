@@ -72,4 +72,36 @@ The weight is updated inside the If statment to make the test one by one not as 
 ![Online Function](readme%20images/online_code.PNG "On-Line Algorithm Function")
 
 - In the on-line function on the other hand, number of epochs has to be calculated since it isn't equal to length of weight_steps
-- I also use it here to break out of the function as well
+- I also use it here to break out of the function as well at 1000 iterations 
+
+---
+
+# <span style="color:#2ac965;"> Comparisons </span>
+
+## 1) Problem 1 data
+
+![Problem 1 batch](readme%20images/problem1_batch.PNG "Problem 1 batch: weights changes & Epochs")
+
+- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed 
+
+![Problem 1 on-line](readme%20images/problem1_online.PNG "Problem 1 On-line: weights changes & Epochs")
+
+- We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
+- also the number of epochs is less than the number of weights changes here as expected from the algorithm
+
+![Problem 1 delta changes](readme%20images/problem1_online_vs_batch.png "Problem 1 delta changes: batch vs online")
+
+---
+
+## 2) Problem 4 data
+
+![Problem 1 batch](readme%20images/problem4_batch.PNG "Problem 4 batch: weights changes & Epochs")
+
+- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed 
+
+![Problem 1 on-line](readme%20images/problem4_online.PNG "Problem 4 On-line: weights changes & Epochs")
+
+- We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
+- also the number of epochs is less than the number of weights changes here as expected from the algorithm
+
+![Problem 4 delta changes](readme%20images/problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
