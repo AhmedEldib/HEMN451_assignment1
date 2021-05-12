@@ -62,8 +62,14 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ![Batch Function](readme%20images/batch_code.PNG "Batch Algorithm Function")
 
+- The plots array is used to append the norm of deltas while iterating to plot them later against deltas generated from the online function
+- The epochs variable is calculated here only for the breaking out of the function in case of too many iteration (Not linearly sperable data)
+- other than that the epochs in the batch algorithm is equal to length of weight_steps, so we don't have to return it
 ---
 
 ## 2) Online Training Algorithm
 
 ![Online Function](readme%20images/online_code.PNG "On-Line Algorithm Function")
+
+- In the on-line function on the other hand, number of epochs has to be calculated since it isn't equal to length of weight_steps
+- I also use it here to break out of the function as well
