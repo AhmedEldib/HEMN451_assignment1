@@ -123,7 +123,7 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 <br><br><br>
 
-![linearly sperable data delta changes](generated_data_online_vs_batch.png "linearly sperable data delta changes: batch vs online")
+![linearly sperable data delta changes](readme%20images/generated_data_online_vs_batch.png "linearly sperable data delta changes: batch vs online")
 <br><br>
 
 ---
@@ -149,11 +149,11 @@ Now we will plot both models against the test & train data <br>
 Finally we calculated for train and test data using both models: confusion matrix, accuracy 
 The 1st cell is for the batch model, while the second cell is for the on-line model <br>
 
-![linearly sperable train accuracy](readme%20images/linear_train.png "linearly sperable models train accuracy")
+![linearly sperable train accuracy](readme%20images/linear_train.PNG "linearly sperable models train accuracy")
 
 <br><br><br>
 
-![linearly sperable test accuracy](readme%20images/linear_test.png "linearly sperable models test accuracy")
+![linearly sperable test accuracy](readme%20images/linear_test.PNG "linearly sperable models test accuracy")
 
 <br><br><br>
 
@@ -172,7 +172,7 @@ The 1st cell is for the batch model, while the second cell is for the on-line mo
 
 <br><br><br>
 
-![non-linearly sperable data delta changes](generated2_data_online_vs_batch.png "non-linearly sperable data delta changes: batch vs online")
+![non-linearly sperable data delta changes](readme%20images/generated2_data_online_vs_batch.png "non-linearly sperable data delta changes: batch vs online")
 <br><br>
 
 ---
@@ -198,11 +198,11 @@ After plotting both models against the test & train data, we can see that the mo
 Finally we calculated for train and test data using both models: confusion matrix, accuracy 
 The 1st cell is for the batch model, while the second cell is for the on-line model <br>
 
-![non-linearly sperable train accuracy](readme%20images/non_linear_train.png "non-linearly sperable models train accuracy")
+![non-linearly sperable train accuracy](readme%20images/non_linear_train.PNG "non-linearly sperable models train accuracy")
 
 <br><br><br>
 
-![non-linearly sperable test accuracy](readme%20images/non_linear_test.png "non-linearly sperable models test accuracy")
+![non-linearly sperable test accuracy](readme%20images/non_linear_test.PNG "non-linearly sperable models test accuracy")
 
 <br><br><br>
 
