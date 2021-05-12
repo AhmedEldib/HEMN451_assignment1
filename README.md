@@ -1,5 +1,5 @@
 # <span style="color:#2ac965;"> Algorithms Description </span>
-## 1-Batch Perceptron Algorithm
+## 1) Batch Perceptron Algorithm
 
 
 #### The perceptron Algorithm is inspired by the biological neural networks (BNN) , where each neuron transmits and recieves various stimulus from all over the body, but there is a condition , ***that this summation stimulus must be over a certian thershold*** to be transmitted to the axon. The perceptron tries to imitate this image in a computational way.
@@ -30,7 +30,7 @@ so lets model the perceptron <br>
 > A key word for the normal Batch perceptron that it uses fixed Training DataSet of fairly small size
 ---
 
-## 2-Online Training Algorithm
+## 2) Online Training Algorithm
 
 #### They are both pretty similar but the Online Training is used with Large Continous flowing data, On-line learning algorithms take an initial guess model and then picks up one-one observation from the training population and recalibrates the weights on each input parameter.
 
@@ -44,6 +44,8 @@ so lets model the perceptron <br>
 > So to sum up, The online algorithm Takes input which is large continous training dataset(this wasnt applied in our problem), then get:<br> 
 >> u = weights multipled (dot product) by x_training data<br>
 
+![Online Flow Chart](readme%20images/online_flow_chart.png "On-line Flow Chart")
+
 - if  y_training multiplied by u (both scalars) <= 0<br>
 	- change/update delta<br>
 	- Delta = Delta / size of training data (Averaging)<br>
@@ -51,3 +53,17 @@ so lets model the perceptron <br>
 - Untill we reach an acceptable error we keep iterating<br>
 
 The weight is updated inside the If statment to make the test one by one not as a batch
+
+---
+
+# <span style="color:#2ac965;"> Algorithms Implementation </span>
+
+## 1) Batch Perceptron function
+
+![Batch Function](readme%20images/batch_code.PNG "Batch Algorithm Function")
+
+---
+
+## 2) Online Training Algorithm
+
+![Online Function](readme%20images/online_code.PNG "On-Line Algorithm Function")
