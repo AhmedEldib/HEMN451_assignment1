@@ -89,7 +89,7 @@ The weight is updated inside the If statment to make the test one by one not as 
 - We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
 - also the number of epochs is less than the number of weights changes here as expected from the algorithm
 
-![Problem 1 delta changes](readme%20images/problem1_online_vs_batch.png "Problem 1 delta changes: batch vs online")
+![Problem 1 delta changes](problem1_online_vs_batch.png "Problem 1 delta changes: batch vs online")
 
 ---
 
@@ -104,4 +104,4 @@ The weight is updated inside the If statment to make the test one by one not as 
 - We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
 - also the number of epochs is less than the number of weights changes here as expected from the algorithm
 
-![Problem 4 delta changes](readme%20images/problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
+![Problem 4 delta changes](problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
