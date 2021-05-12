@@ -4,7 +4,7 @@
 ---
 The perceptron Algorithm is inspired by the biological neural networks (BNN) , where each neuron transmits and recieves various stimulus from all over the body, but there is a condition , **that this summation stimulus must be over a certian thershold** to be transmitted to the axon. The perceptron tries to imitate this image in a computational way.
 
-![Perceptron Flow Chart](readme images/1.png)
+![Perceptron Flow Chart](./readme images/1.png)
 
 so lets model the perceptron <br>
 1. Perceptron models a neuron<br>
