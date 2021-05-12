@@ -76,7 +76,7 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ---
 
-# <span style="color:#2ac965;"> Comparisons </span>
+# <span style="color:#2ac965;"> Comparisons from sheet 3</span>
 
 ## 1) Problem 1 data
 
@@ -105,3 +105,44 @@ The weight is updated inside the If statment to make the test one by one not as 
 - also the number of epochs is less than the number of weights changes here as expected from the algorithm <br><br><br>
 
 ![Problem 4 delta changes](problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
+<br><br>
+---
+
+# <span style="color:#2ac965;"> Generated data from SkLearn</span>
+
+- We will make 2 comparisons here: 
+	- The 1st will be with linearly sperable data where the accuracy should be very high in both train and test data
+	- The 2nd will be with non-linearly sperable data and see how much error the model will reach
+
+## 1) linearly sperable data
+
+![linearly sperable data batch](readme%20images/linear_batch.PNG "linearly sperable data batch: weights changes & Epochs")
+
+<br><br><br>
+
+![linearly sperable data on-line](readme%20images/linear_online.PNG "linearly sperable data On-line: weights changes & Epochs")
+
+<br><br><br>
+
+![linearly sperable data delta changes](generated_data_online_vs_batch.png "linearly sperable data delta changes: batch vs online")
+<br><br>
+
+---
+
+
+## 2) non-linearly sperable data
+
+![non-linearly sperable data batch](readme%20images/non_linear_batch.PNG "non-linearly sperable data batch: weights changes & Epochs")
+
+<br><br><br>
+
+![non-linearly sperable data on-line](readme%20images/non_linear_online.PNG "non-linearly sperable data On-line: weights changes & Epochs")
+
+<br><br><br>
+
+![non-linearly sperable data delta changes](generated2_data_online_vs_batch.png "non-linearly sperable data delta changes: batch vs online")
+<br><br>
+
+---
+
+
