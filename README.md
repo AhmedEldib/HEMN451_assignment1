@@ -146,7 +146,7 @@ Now we will plot both models against the test & train data <br>
 
 <br><br><br>
 
-Finally we calculated for train and test data using both models: confusion matrix, accuracy 
+Finally we calculated for train and test data using both models: confusion matrix, accuracy <br>
 The 1st cell is for the batch model, while the second cell is for the on-line model <br>
 
 ![linearly sperable train accuracy](readme%20images/linear_train.PNG "linearly sperable models train accuracy")
@@ -155,14 +155,18 @@ The 1st cell is for the batch model, while the second cell is for the on-line mo
 
 ![linearly sperable test accuracy](readme%20images/linear_test.PNG "linearly sperable models test accuracy")
 
-<br><br><br>
+<br>
 
 > Since the data was easy to learn, both models achieved 100% accuracy on both test and train data
+
+<br><br>
 
 ---
 
 
 ## 2) non-linearly sperable data
+
+Since the data is not sperable linearly, the model will break at the condition of 10000 & 1000 epochs for batch and on-line respectively
 
 ![non-linearly sperable data batch](readme%20images/non_linear_batch.PNG "non-linearly sperable data batch: weights changes & Epochs")
 
@@ -195,7 +199,7 @@ After plotting both models against the test & train data, we can see that the mo
 
 <br><br><br>
 
-Finally we calculated for train and test data using both models: confusion matrix, accuracy 
+Finally we calculated for train and test data using both models: confusion matrix, accuracy <br>
 The 1st cell is for the batch model, while the second cell is for the on-line model <br>
 
 ![non-linearly sperable train accuracy](readme%20images/non_linear_train.PNG "non-linearly sperable models train accuracy")
