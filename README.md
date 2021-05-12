@@ -82,26 +82,26 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ![Problem 1 batch](readme%20images/problem1_batch.PNG "Problem 1 batch: weights changes & Epochs")
 
-- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed 
+- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed <br><br><br>
 
 ![Problem 1 on-line](readme%20images/problem1_online.PNG "Problem 1 On-line: weights changes & Epochs")
 
 - We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
-- also the number of epochs is less than the number of weights changes here as expected from the algorithm
+- also the number of epochs is less than the number of weights changes here as expected from the algorithm <br><br><br>
 
-![Problem 1 delta changes](problem1_online_vs_batch.png "Problem 1 delta changes: batch vs online")
-
+![Problem 1 delta changes](problem1_online_vs_batch.png "Problem 1 delta changes: batch vs online") 
+<br><br>
 ---
 
 ## 2) Problem 4 data
 
 ![Problem 1 batch](readme%20images/problem4_batch.PNG "Problem 4 batch: weights changes & Epochs")
 
-- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed 
+- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed <br><br><br>
 
 ![Problem 1 on-line](readme%20images/problem4_online.PNG "Problem 4 On-line: weights changes & Epochs")
 
 - We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
-- also the number of epochs is less than the number of weights changes here as expected from the algorithm
+- also the number of epochs is less than the number of weights changes here as expected from the algorithm <br><br><br>
 
 ![Problem 4 delta changes](problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
