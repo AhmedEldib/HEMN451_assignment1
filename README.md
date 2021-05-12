@@ -2,7 +2,7 @@
 ## 1-Batch Perceptron Algorithm
 
 
-### The perceptron Algorithm is inspired by the biological neural networks (BNN) , where each neuron transmits and recieves various stimulus from all over the body, but there is a condition , ***that this summation stimulus must be over a certian thershold*** to be transmitted to the axon. The perceptron tries to imitate this image in a computational way.
+#### The perceptron Algorithm is inspired by the biological neural networks (BNN) , where each neuron transmits and recieves various stimulus from all over the body, but there is a condition , ***that this summation stimulus must be over a certian thershold*** to be transmitted to the axon. The perceptron tries to imitate this image in a computational way.
 
 ![Perceptron Flow Chart](readme%20images/1.png "Perceptron Flow Chart")
 
@@ -32,12 +32,12 @@ so lets model the perceptron <br>
 
 ## 2-Online Training Algorithm
 
-### They are both pretty similar but the Online Training is used with Large Continous flowing data, On-line learning algorithms take an initial guess model and then picks up one-one observation from the training population and recalibrates the weights on each input parameter.
+#### They are both pretty similar but the Online Training is used with Large Continous flowing data, On-line learning algorithms take an initial guess model and then picks up one-one observation from the training population and recalibrates the weights on each input parameter.
 
-### In the online model, you are allowed to make exactly one pass on your data, so these algorithms are typically much faster than their batch learning equivalents, thus deploying online algorithms in production typically requires that you have something constantly passing datapoints to your algorithm.
+#### In the online model, you are allowed to make exactly one pass on your data, so these algorithms are typically much faster than their batch learning equivalents, thus deploying online algorithms in production typically requires that you have something constantly passing datapoints to your algorithm.
 
-### If your data changes and your feature selectors are no longer producing useful output, or if there is major network latency between the servers of your feature selectors, or one of those servers goes down, or really any number of other things, your learner tanks and your output is garbage. 
-### ***Making sure all of this is running ok can be a trial.***
+#### If your data changes and your feature selectors are no longer producing useful output, or if there is major network latency between the servers of your feature selectors, or one of those servers goes down, or really any number of other things, your learner tanks and your output is garbage. 
+#### ***Making sure all of this is running ok can be a trial.***
 
 > The main difference between the online and the batch is that the online training processes data piece by piece while the batch perceptron processes the data in batches , hence the name <br>
 >
