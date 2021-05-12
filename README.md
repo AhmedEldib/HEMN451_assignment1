@@ -97,12 +97,11 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ![Problem 1 batch](readme%20images/problem4_batch.PNG "Problem 4 batch: weights changes & Epochs")
 
-- As mentioned before, in the batch algorithms the Epochs is the same as the number of times the weights changed <br><br><br>
+- Using this data, the batch calculated the weights very fast since the data was easy to calculate from <br><br><br>
 
 ![Problem 1 on-line](readme%20images/problem4_online.PNG "Problem 4 On-line: weights changes & Epochs")
 
-- We can clearly see that the number of weights changes here is darastically less than the batch algorithm one
-- also the number of epochs is less than the number of weights changes here as expected from the algorithm <br><br><br>
+- The batch he was faster than the on-line, which could be from the random weights were initialized better in the batch or since the data is very small it complements the batch algorithm method <br><br><br>
 
 ![Problem 4 delta changes](problem4_online_vs_batch.png "Problem 4 delta changes: batch vs online")
 <br><br>
@@ -129,6 +128,39 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ---
 
+## 1.1) Accuracy Calculations
+
+Here is the data that was generated, which seems very easy for the model to learn from <br>
+
+![linearly sperable data](readme%20images/generated.png "linearly sperable data plot")
+
+<br><br><br>
+
+Now we will plot both models against the test & train data <br>
+
+![linearly sperable models train](readme%20images/training_plot.png "linearly sperable models train plot")
+
+<br><br><br>
+
+![linearly sperable models test](readme%20images/testing_plot.png "linearly sperable models test plot")
+
+<br><br><br>
+
+Finally we calculated for train and test data using both models: confusion matrix, accuracy 
+The 1st cell is for the batch model, while the second cell is for the on-line model <br>
+
+![linearly sperable train accuracy](readme%20images/linear_train.png "linearly sperable models train accuracy")
+
+<br><br><br>
+
+![linearly sperable test accuracy](readme%20images/linear_test.png "linearly sperable models test accuracy")
+
+<br><br><br>
+
+> Since the data was easy to learn, both models achieved 100% accuracy on both test and train data
+
+---
+
 
 ## 2) non-linearly sperable data
 
@@ -145,4 +177,35 @@ The weight is updated inside the If statment to make the test one by one not as 
 
 ---
 
+## 2.1) Accuracy Calculations
 
+This time we have data which will be very hard to learn on, since it can't be seperated linearly <br>
+
+![non-linearly sperable data](readme%20images/generated2.png "non-linearly sperable data plot")
+
+<br><br><br>
+
+After plotting both models against the test & train data, we can see that the model didn't seperate the data correctly <br>
+
+![non-linearly sperable models train](readme%20images/training2_plot.png "non-linearly sperable models train plot")
+
+<br><br><br>
+
+![non-linearly sperable models test](readme%20images/testing2_plot.png "non-linearly sperable models test plot")
+
+<br><br><br>
+
+Finally we calculated for train and test data using both models: confusion matrix, accuracy 
+The 1st cell is for the batch model, while the second cell is for the on-line model <br>
+
+![non-linearly sperable train accuracy](readme%20images/non_linear_train.png "non-linearly sperable models train accuracy")
+
+<br><br><br>
+
+![non-linearly sperable test accuracy](readme%20images/non_linear_test.png "non-linearly sperable models test accuracy")
+
+<br><br><br>
+
+> Since the data was hard to learn, both models achieved lower accuracy on both test and train data than on the linearly sperable data
+
+---
